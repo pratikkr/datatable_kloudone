@@ -23,20 +23,20 @@ fetch("https://raw.githubusercontent.com/accuknox/TrainingAPI/main/small.json")
     }
 )
 
-const searchFn =()=>{
-    let filter = document.getElementById('search').nodeValue;
-    let myTable = document.getElementById('table');
-    let tr =table.getElementsByTagName('tr');
+// const searchFn =()=>{
+//     let filter = document.getElementById('search').nodeValue;
+//     let myTable = document.getElementById('table');
+//     let tr =table.getElementsByTagName('tr');
 
-    for(var i =0 ; i< tr.length ; i++){
-        let td = tr[i].getElementsByTagName('td')[1];
+//     for(var i =0 ; i< tr.length ; i++){
+//         let td = tr[i].getElementsByTagName('td')[1];
 
-        if(td){
-            let textvalue =td.textcontent || td.innerHTML;
-            if(textvalue.indexOf())
-        }
+//         if(td){
+//             let textvalue =td.textcontent || td.innerHTML;
+//             if(textvalue.indexOf())
+//         }
 
-    }
+//     }
 
 
-}
+// }
