@@ -4,15 +4,28 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<span>select <select name="choose_api" id="select" onchange="change()">
-    <option value="small" id="small">small</option>
-    <option value="medium" id="medium">medium</option>
-    <option value="large" id="large">large</option>
-</select>
+<span class="select">
+    select 
+    <select name="choose_api" id="select" onchange="change()">
+        <option value="small" id="small">small</option>
+        <option value="medium" id="medium">medium</option>
+        <option value="large" id="large">large</option>
+    </select>
 </span>
 
+<span class="search">
+    Search
     <input type="text" id="search" onkeyup="searchFn()">
-        <table >
+</span>
+<div class="heading">
+    <div class="id">Id</div>
+    <div class="name">Name</div>
+    <div class="location">Location</div>
+    <div class="date">Date</div>
+    <div class="salary">Salary</div>
+</div>
+<div id="table"></div>
+        <!-- <table >
             <thead>
                 <tr>
                     <th>id</th>
@@ -23,9 +36,8 @@
                 </tr>
             </thead>
             <tbody id="table">
-
             </tbody>
-        </table>
+        </table> -->
         <div id="listingTable"></div>
         <a href="javascript:prevPage()" id="btn_prev">Prev</a>
         <a href="javascript:nextPage()" id="btn_next">Next</a>

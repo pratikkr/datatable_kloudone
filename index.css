@@ -1,21 +1,77 @@
-table { 
-			margin: 0 auto; 
-			font-size: large; 
-			border: 1px solid black; 
-		} 
-		td { 
-			background-color: #E4F5D4; 
-			border: 1px solid black; 
-		} 
+.search{
+    margin-right: 5%;
+    float: right;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+}
+.select{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 2%;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    /* padding-left: 50px; */
+    /* margin-right: 5%; */
+    /* width: 10%; */
+    background-color: rgb(58, 103, 170);
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+    padding: 10px;
+    /* width: 79.4%; */
+    margin-top: 2%;
+}
 
-		th, 
-		td { 
-			font-weight: bold; 
-			border: 1px solid black; 
-			padding: 10px; 
-			text-align: center; 
-		} 
+#root{
+    display: table;
+    /* flex-direction: row; */
+    padding-top: 10px;
+}
 
-		td { 
-			font-weight: lighter; 
-		}
+.row{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+    padding: 5px;
+    text-align: center;
+    justify-content: last baseline;
+    /* width: 80%; */
+}
+
+.id{
+    padding-left: 50px;
+    margin-right: 5%;
+    width: 15%;
+    text-align: justify;
+    
+}
+.name{
+    display: inline;
+    margin-right: 5%;
+    /* border: 1px solid black; */
+    width: 15%;
+    text-align: justify;
+}
+.location{
+    margin-right: 5%;
+    /* border: 1px solid black; */
+    width: 15%;
+    text-align: justify;
+}
+.date{
+    margin-right: 5%;
+    width: 15%;
+    /* border: 1px solid black; */
+    text-align: justify;
+}
+.salary{
+    margin-right: 5%;
+    width: 15%;
+    text-align: justify;
+    /* border: 1px solid black; */
+}
