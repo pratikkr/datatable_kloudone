@@ -15,21 +15,16 @@
     display: flex;
     flex-direction: row;
     border: 1px solid black;
-    /* padding-left: 50px; */
-    /* margin-right: 5%; */
-    /* width: 10%; */
     background-color: rgb(58, 103, 170);
     color: white;
     font-weight: bolder;
     font-size: medium;
     padding: 10px;
-    /* width: 79.4%; */
     margin-top: 2%;
 }
 
 #root{
     display: table;
-    /* flex-direction: row; */
     padding-top: 10px;
 }
 
@@ -40,7 +35,7 @@
     padding: 5px;
     text-align: center;
     justify-content: last baseline;
-    /* width: 80%; */
+    
 }
 
 .id{
@@ -53,25 +48,28 @@
 .name{
     display: inline;
     margin-right: 5%;
-    /* border: 1px solid black; */
     width: 15%;
     text-align: justify;
 }
 .location{
     margin-right: 5%;
-    /* border: 1px solid black; */
     width: 15%;
     text-align: justify;
 }
 .date{
     margin-right: 5%;
     width: 15%;
-    /* border: 1px solid black; */
     text-align: justify;
 }
 .salary{
     margin-right: 5%;
     width: 15%;
     text-align: justify;
-    /* border: 1px solid black; */
+    
+}
+
+input[type = text]{
+    width: 30%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
 }
